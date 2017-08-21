@@ -1,21 +1,21 @@
-# ionic2-alpha-scroll
+# ionic4-alpha-scroll
 Configurable Ionic 2 component for alphabetically indexed list with an alpha scroll bar.  This component has a few improvements on the original Ionic 1 component, mainly the panning functionality on the alpha wheel scroll shown below in the demo.
 
-[![NPM](https://nodei.co/npm/ionic2-alpha-scroll.png?downloads=true&stars=true)](https://nodei.co/npm/ionic2-alpha-scroll/)
+[![NPM](https://nodei.co/npm/ionic4-alpha-scroll.png?downloads=true&stars=true)](https://nodei.co/npm/ionic4-alpha-scroll/)
 
 ## Installation
 
 1. Use npm to install the component
 
   ```bash
-  npm install ionic2-alpha-scroll --save
+  npm install ionic4-alpha-scroll --save
   ```
 
-1. Add the ionic2-alpha-scroll component to your app.
+1. Add the ionic4-alpha-scroll component to your app.
 
   Include the following on your `src/app/app.module.ts`.
   ```javascript
-  import { IonAlphaScrollModule } from 'ionic2-alpha-scroll';
+  import { IonAlphaScrollModule } from 'ionic4-alpha-scroll';
 
   @NgModule({
     declarations: [
@@ -35,7 +35,7 @@ Configurable Ionic 2 component for alphabetically indexed list with an alpha scr
   ### This means you cannot run `ionic build ios --prod` because that will use AoT compiling.  Unfortunately you will have to use `ionic build ios` and omit the AoT compiling to use this component.
 
 ## Demo
-[Here is a sample Ionic 2 app on GitHub that shows how to use this component](https://github.com/rossmartin/ionic2-alpha-scroll-example)
+[Here is a sample Ionic 2 app on GitHub that shows how to use this component](https://github.com/rossmartin/ionic4-alpha-scroll-example)
 ![Animated](alpha-scroll.gif)
 
 ## Usage

@@ -1,6 +1,6 @@
 {
-  "name": "ionic2-alpha-scroll",
-  "version": "1.1.2",
+  "name": "ionic4-alpha-scroll",
+  "version": "1.0.0",
   "description": "Configurable Ionic 2 component for alphabetically indexed list with an alpha scroll bar.",
   "main": "index.js",
   "scripts": {
@@ -9,10 +9,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rossmartin/ionic2-alpha-scroll.git"
+    "url": "git+https://github.com/sirius2013/ionic4-alpha-scroll.git"
   },
   "keywords": [
-    "ionic2",
+    "ionic4",
     "angular2",
     "alpha-scroll",
     "component"
@@ -20,9 +20,9 @@
   "author": "Ross Martin <rmartin311@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rossmartin/ionic2-alpha-scroll/issues"
+    "url": "https://github.com/sirius2013/ionic4-alpha-scroll/issues"
   },
-  "homepage": "https://github.com/rossmartin/ionic2-alpha-scroll#readme",
+  "homepage": "https://github.com/sirius2013/ionic4-alpha-scroll#readme",
   "files": [
     "index.d.ts",
     "index.js",
@@ -48,24 +48,25 @@
   ],
   "dependencies": {
     "@types/hammerjs": "^2.0.33",
-    "@types/lodash": "4.14.38",
+    "@types/lodash": "^4.14.64",
     "lodash": "4.14.2",
-    "ng-dynamic": "1.1.0"
+    "ng-dynamic": "3.0.2"
   },
   "devDependencies": {
-    "ionic-angular": "2.0.0",
-    "@angular/common": "2.2.1",
-    "@angular/compiler": "2.2.1",
-    "@angular/compiler-cli": "2.2.1",
-    "@angular/core": "2.2.1",
-    "@angular/forms": "2.2.1",
-    "@angular/http": "2.2.1",
-    "@angular/platform-browser": "2.2.1",
-    "@angular/platform-browser-dynamic": "2.2.1",
-    "@angular/platform-server": "2.2.1",
-    "rxjs": "5.0.0-beta.12",
-    "typescript": "^2.0.9",
-    "zone.js": "0.6.26",
+    "ionic-angular": "3.0.1",
+    "@angular/common": "4.0.0",
+    "@angular/compiler": "4.0.0",
+    "@angular/compiler-cli": "4.0.0",
+    "@angular/core": "4.0.0",
+    "@angular/forms": "4.0.0",
+    "@angular/http": "4.0.0",
+    "@angular/animations": "4.0.0",
+    "@angular/platform-browser": "4.0.0",
+    "@angular/platform-browser-dynamic": "4.0.0",
+    "@angular/platform-server": "4.0.0",
+    "rxjs": "5.1.1",
+    "typescript": "~2.2.1",
+    "zone.js": "^0.8.4",
     "copyfiles": "1.0.0"
   }
 }
